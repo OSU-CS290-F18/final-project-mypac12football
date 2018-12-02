@@ -1,0 +1,84 @@
+<main class="initial-container" data-is-teams = "yes">
+            <!-- <h3>Add some teams to your home page!</h3> -->
+            <div id="my-teams">
+              <h3>My Teams:</h3>
+                {{#each teams}}
+                    {{> myTeam}}
+                {{/each}}
+
+
+            <button id="add-teams-button" class="action-button">Add or Remove Teams</button>
+    </main>
+
+    <div id="modal-backdrop" class="hidden"></div>
+    <div id="add-teams-modal" class="hidden">
+      <div class="modal-dialog">
+
+        <div class="modal-header">
+          <h3>Add or remove teams to your home page!</h3>
+          <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          
+          <div class="modal-input-element">
+            <fieldset id="team-fieldset" class="modal-fieldset">
+              <legend>Teams:</legend>
+              <div>
+                <input type="checkbox" name="input-team" id="team-arizona" value="arizona">
+                <label for="team-arizona">Arizona</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-arizonastate" value="arizonastate">
+                <label for="team-arizonastate">Arizona State</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-cal" value="cal">
+                <label for="team-cal">Cal</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-colorado" value="colorado">
+                <label for="team-colorado">Colorado</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-oregon" value="oregon">
+                <label for="team-oregon">Oregon</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-oregonstate" value="oregonstate">
+                <label for="team-oregonstate">Oregon State</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-stanford" value="stanford">
+                <label for="team-stanford">Stanford</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-utah" value="utah">
+                <label for="team-utah">Utah</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-ucla" value="ucla">
+                <label for="team-ucla">UCLA</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-usc" value="usc">
+                <label for="team-usc">USC</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-washington" value="washington">
+                <label for="team-washington">Washington</label>
+              </div>
+              <div>
+                <input type="checkbox" name="input-team" id="team-washingtonstate" value="washingtonstate">
+                <label for="team-washingtonstate">Washington State</label>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+          <button type="button" id="modal-accept" class="action-button">Update Teams</button>
+        </div>
+
+    </div>
+  </div>

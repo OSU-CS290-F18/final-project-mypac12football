@@ -1,0 +1,115 @@
+{"divisions":{
+    "north":{
+        "oregon":{
+            "name": "Oregon",
+            "lowerName": "oregon",
+            "mascot":"Ducks",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oregon_Ducks_logo.svg/2000px-Oregon_Ducks_logo.svg.png",
+            "record": "8-4 (5-4)",
+            "confWins": 5,
+            "teamColor": "green"
+        },
+        "oregonstate":{
+            "lowerName": "oregonstate",
+            "name": "Oregon State",
+            "mascot":"Beavers",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Oregon_State_Beavers_logo.svg/1200px-Oregon_State_Beavers_logo.svg.png",
+            "record": "2-10 (1-8)",
+            "confWins": 1,
+            "teamColor": "orangered" 
+        },
+        "washington":{
+            "lowerName": "washington",
+            "name": "Washington",
+            "mascot":"Huskies",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Washington_Huskies_logo.svg/1280px-Washington_Huskies_logo.svg.png",
+            "record": "9-3 (7-2)",
+            "confWins": 7,
+            "teamColor": "purple"
+        },
+        "washingtonstate":{
+            "lowerName": "washingtonstate",
+            "name": "Washington State",
+            "mascot":"Cougars",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Washington_State_Cougars_logo.svg/1200px-Washington_State_Cougars_logo.svg.png",
+            "record": "10-2 (7-2)",
+            "confWins": 7,
+            "teamColor": "crimson" 
+        },
+        "stanford":{
+            "lowerName": "stanford",
+            "name": "Stanford",
+            "mascot":"Cardinal",
+            "logoURL":"https://identity.stanford.edu/img/block-s-2color.png",
+            "record": "8-4 (6-3)",
+            "confWins": 6,
+            "teamColor": "crimson" 
+        },
+        "cal":{
+            "lowerName": "cal",
+            "name": "Cal",
+            "mascot":"Golden Bears",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/California_Golden_Bears_logo.svg/2000px-California_Golden_Bears_logo.svg.png",
+            "record": "7-5 (4-5)",
+            "confWins": 4,
+            "teamColor": "navy"  
+        }
+    },
+    "south":{
+        "arizona":{
+            "lowerName": "arizona",
+            "name": "Arizona",
+            "mascot":"Wildcats",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Arizona_Wildcats_logo.svg/2000px-Arizona_Wildcats_logo.svg.png",
+            "record": "5-7 (4-5)",
+            "confWins": 4,
+            "teamColor": "navy" 
+        },
+        "arizonastate":{
+            "lowerName": "arizonastate",
+            "name": "Arizona State",
+            "mascot":"Sun Devils",
+            "logoURL":"https://i.pinimg.com/originals/eb/f8/70/ebf870de79640549de90681c087d230d.png",
+            "record": "7-5 (5-4)",
+            "confWins": 5,
+            "teamColor": "red" 
+        },
+        "usc":{
+            "lowerName": "usc",
+            "name": "USC",
+            "mascot":"Trojans",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/USC_Trojans_logo.svg/1200px-USC_Trojans_logo.svg.png",
+            "record": "5-7 (4-5)",
+            "confWins": 4,
+            "teamColor": "red" 
+        },
+        "ucla":{
+            "lowerName": "ucla",
+            "name": "UCLA",
+            "mascot":"Bruins",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/en/6/6d/UCLA_Bruins_Logo.png",
+            "record": "3-9 (3-6)",
+            "confWins": 3,
+            "teamColor": "skyblue" 
+        },
+        "utah":{
+            "lowerName": "utah",
+            "name": "Utah",
+            "mascot":"Utes",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Utah_Utes_logo.svg/2000px-Utah_Utes_logo.svg.png",
+            "record": "9-3 (6-3)",
+            "confWins" : 6,
+            "teamColor": "red"
+        },
+        "colorado":{
+            "lowerName": "colorado",
+            "name": "Colorado",
+            "mascot":"Buffalos",
+            "logoURL":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png",
+            "record": "5-7 (2-7)",
+            "confWins": 2,
+            "teamColor": "black" 
+        }   
+    }
+}
+}
