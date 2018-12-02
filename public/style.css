@@ -172,6 +172,16 @@ body {
   .initial-container {
     text-align: center;
   }
+
+  .division-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline-start: 200px;
+    padding-inline-end: 200px;
+    padding-block-start: 25px
+  }
   
   .initial-container h3 {
     margin-top: 100px;

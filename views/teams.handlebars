@@ -1,0 +1,16 @@
+        <main class="division-container">
+
+            <div id="my-teams">
+              <h2>North Division Standings:</h2>
+                {{#each north}}
+                    {{> myTeam}}
+                {{/each}}
+            </div>
+            
+            <div id="my-teams">
+                <h2>South Division Standings:</h2>
+                {{#each south}}
+                    {{> myTeam}}
+                {{/each}}
+            </div>
+        </main>

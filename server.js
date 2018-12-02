@@ -26,7 +26,9 @@ app.get('/', function (req, res, next) {
     }
   });
 
-app.get('/teams');
+app.get('/teams', function (req, res, next) {
+    res.status(200).render('teams', allTeams["divisions"]);
+});
 
 app.get('/teams/:division/:team');
 
