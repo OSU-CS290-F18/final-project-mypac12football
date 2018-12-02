@@ -24,11 +24,10 @@ body {
 
   a {
     text-decoration: none;
-    color: #03a9f4;
   }
   
   a:hover {
-    color: #0c719e;
+    text-decoration: underline;
   }
 
   .site-title {
@@ -66,7 +65,7 @@ body {
   /*
    * Modal stuff
    */
-  #modal-backdrop {
+   #modal-backdrop {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -76,7 +75,7 @@ body {
     background-color: rgba(0, 0, 0, 0.85);
   }
   
-  #add-photo-modal {
+  #add-teams-modal {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -88,22 +87,6 @@ body {
   
   .hidden {
     display: none;
-  }
-  
-  .action-button {
-    font-size: 20px;
-    color: white;
-    padding: 10px;
-    background-color: #000;
-    border: 1px solid #ababab;
-    border-radius: 5px;
-    font-weight: lighter;
-    cursor: pointer;
-  }
-  
-  .action-button:hover {
-    background-color: #e78477;
-    border-color: #333;
   }
   
   .modal-dialog {
@@ -141,24 +124,29 @@ body {
     padding: 20px;
   }
   
-  .photo-input-element {
+  .modal-input-element {
     display: flex;
     align-items: center;
     font-size: 20px;
     margin: 10px 0;
   }
   
-  .photo-input-element > label {
+  .modal-input-element > label {
     font-weight: 600;
     flex: 1 75px;
     margin-right: 10px;
   }
   
-  .photo-input-element input {
+  .modal-input-element input {
     flex: 6 200px;
     padding: 8px;
     font-size: 20px;
     border: 1px solid #aaa;
+  }
+  
+  .modal-fieldset {
+    flex: 1 100%;
+    border: 1px solid #ababab;
   }
   
   .modal-footer {
@@ -179,4 +167,87 @@ body {
   
   #modal-cancel:hover {
     background-color: #eee;
+  }
+
+  .initial-container {
+    text-align: center;
+  }
+  
+  .initial-container h3 {
+    margin-top: 100px;
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  #my-teams h3{
+    margin-top: 50px;
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  .action-button {
+    font-family: "Bai Jamjuree",sans-serif;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #00478d;
+    border-color: #333;
+    color: #fff;
+  }
+  
+  #add-teams-button {
+    width: 25%;
+    align-self: center;
+  }
+
+  .my-team{
+    display: block;
+    align-content: center;
+    height: 35px;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .my-team-contents{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .my-team-logo{
+    align-content: center;
+    padding-inline-start: 5px
+  }
+  .my-team-logo img{
+    max-height: 35px;
+    max-width: auto;
+  }
+
+  .my-team-info{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 15px;
+    font-size: 25px;
+    width:100%;
+    text-align: left;  
+    padding-inline-end: 5px
+  }
+
+  .team-name{
   }
