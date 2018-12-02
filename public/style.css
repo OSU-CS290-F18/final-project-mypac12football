@@ -178,9 +178,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-inline-start: 200px;
-    padding-inline-end: 200px;
-    padding-block-start: 25px
+    padding-inline-start: 15%;
+    padding-inline-end: 15%;
+    padding-block-start: 25px;
+    flex-wrap: wrap;
   }
   
   .initial-container h3 {
