@@ -26,6 +26,10 @@ app.get('/', function (req, res, next) {
     }
   });
 
+app.get('/teams');
+
+app.get('/teams/:division/:team');
+
 app.post('/updateMyTeams', function (req, res, next) {
     if(req.body)
     newMyTeams = req.body;
@@ -63,7 +67,8 @@ app.post('/updateMyTeams', function (req, res, next) {
                     logoURL:team.logoURL,
                     record: team.record,
                     confWins: team.confWins,
-                    teamColor: team.teamColor
+                    teamColor: team.teamColor,
+                    division: team.division
                 }
                 myTeams["myTeams"]["teams"].push(pushObj);
             }
@@ -76,13 +81,18 @@ app.post('/updateMyTeams', function (req, res, next) {
                     logoURL:team.logoURL,
                     record: team.record,
                     confWins: team.confWins,
-                    teamColor: team.teamColor
+                    teamColor: team.teamColor,
+                    division: team.division
                 }
                 myTeams["myTeams"]["teams"].push(pushObj);
             }
         }
     }
     res.status(200).send("Success");
+});
+
+app.get('*', function (req, res, next) {
+    res.status(404).render('404');
 });
 
 app.listen(port, function () {
