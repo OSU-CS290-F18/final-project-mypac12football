@@ -54,8 +54,13 @@ updateButton.addEventListener("click", function() {
     pushRequest.open('POST', '/updateMyTeams');
     pushRequest.setRequestHeader('Content-Type', 'application/json');
 
+    pushRequest.addEventListener('load', function (event) {
+        if (event.target.status !== 200) {
+        } else {
+            location.reload(true);
+        }
+      });
+      
+
     pushRequest.send(JSON.stringify(myTeams));
-
-    location.reload(true);
-
 });
