@@ -1,0 +1,33 @@
+ <div class="team-page-header" style="color:{{header-text-color}}; background-color: {{header-block-color}};">
+            <h4 id="coach-header">Head Coach: {{coach}}</h4>
+            <h3>{{name}} {{mascot}}</h3>
+            <h4 id="home-header">Home: {{home}}</h4>
+        </div>
+
+ <div class="team-page-content-container">
+
+     <div class="team-stats-container">
+                    <div id="leaders" class="stats">
+                        <h1>Team Leaders</h1>
+                        {{#each leaders}}
+                        {{> teamLeader}}
+                        {{/each}}
+                    </div>
+                    <div class="page-logo-container">
+                            <img src={{logoURL}}>
+                    </div>
+                    <div id="team-stats" class="stats">
+                        <h1>Team Statistics</h1>
+                        {{#each stats}}
+                        {{> teamStat}}
+                        {{/each}}
+                    </div>
+                </div>
+
+                <div class= "team-schedule">
+                    <h1>2018 Schedule - Record: {{record}}</h1>
+                        {{#each schedule}}
+                        {{> teamGame}}
+                        {{/each}}
+                </div>
+            </div>

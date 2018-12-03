@@ -31,9 +31,11 @@ app.get('/teams', function (req, res, next) {
 });
 
 app.get('/teams/:division/:team', function (req, res, next) {
-    if(req.params.division == "north" || req.params.division == "south"){
-        if(allTeams["divisions"][req.params.division][req.params.team]){
-            res.status(200).render('initialNoTeams');
+    var division = req.params.division.toLowerCase();
+    var teamName = req.params.team.toLowerCase();
+    if(division == "north" || division == "south"){
+        if(allTeams["divisions"][division][teamName]){
+            res.status(200).render('teamPage', allTeams["divisions"][division][teamName]);
         }
         else next();
     }

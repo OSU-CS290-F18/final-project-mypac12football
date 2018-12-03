@@ -7,8 +7,165 @@
             "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oregon_Ducks_logo.svg/2000px-Oregon_Ducks_logo.svg.png",
             "record": "8-4 (5-4)",
             "confWins": 5,
-            "teamColor": "green",
-            "division" : "north"
+            "teamColor": "#154733",
+            "header-text-color": "#FEE123",
+            "header-block-color": "#154733",
+            "division" : "north",
+            "coach" : "Mario Cristobal", 
+            "home" :"Autzen Stadium - Eugene, Oregon",
+            "schedule": [
+                {
+                    "opponent":"VS Bowling Green",
+                    "result": "W (58-24)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"VS Portland State",
+                    "result": "W (62-14)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"VS San Jose State",
+                    "result": "W (35-22)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"VS #7 Stanford",
+                    "result": "L (31-38 OT)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "9/22"
+                },
+                {
+                    "opponent":"@ #24 Cal",
+                    "result": "W (42-24)",
+                    "location": "Memorial Stadium - Berkley, California",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"VS #7 Washington",
+                    "result": "W (30-27 OT)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "10/13"
+                },
+                {
+                    "opponent":"@ #25 Washington State",
+                    "result": "L (20-34)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"@ Arizona",
+                    "result": "L (15-44)",
+                    "location": "Arizona Stadium - Tuscon, Arizona",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"VS UCLA",
+                    "result": "W (42-21)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"@ Utah",
+                    "result": "L (25-32)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"VS Arizona State",
+                    "result": "W (31-29)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"@ Oregon State",
+                    "result": "W (55-15)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "11/23"
+                },
+                {
+                    "opponent":"VS Michigan State",
+                    "result": "TBD",
+                    "location": "Levi's Stadium - Santa Clara, California",
+                    "date": "12/31"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#10 Justin Herbert, JR QB",
+                    "value":"2985"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#10 Justin Herbert, JR QB",
+                    "value":"28"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#34 CJ Verdell, FR(RS) RB",
+                    "value":"975"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#34 CJ Verdell, FR(RS) RB",
+                    "value":"10"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#13 Dillon Mitchell, JR WR",
+                    "value":"1114"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#13 Dillon Mitchell, JR WR",
+                    "value":"9"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#35 Troy Dye, JR ILB",
+                    "value":"107"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#11 Justin Hollins, SR OLB",
+                    "value":"5.0"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#8 Jevon Holland, FR S",
+                    "value":"4"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "37.17"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "254.67"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "191.3"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "27.0"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "247.42"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "143.1"
+                }
+            ]
         },
         "oregonstate":{
             "lowerName": "oregonstate",
@@ -17,18 +174,332 @@
             "logoURL":"https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Oregon_State_Beavers_logo.svg/1200px-Oregon_State_Beavers_logo.svg.png",
             "record": "2-10 (1-8)",
             "confWins": 1,
-            "teamColor": "orangered",
-            "division" : "north" 
+            "teamColor": "#DC4405",
+            "division" : "north",
+            "coach" : "Jonathan Smith", 
+            "header-text-color": "#DC4405",
+            "header-block-color": "black",
+            "home" :"Reser Stadium - Corvallis, Oregon",
+            "schedule": [
+                {
+                    "opponent":"@ #5 Ohio State",
+                    "result": "L (31-77)",
+                    "location": "Ohio Stadium - Columbus, Ohio",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"VS Southern Utah",
+                    "result": "W (48-25)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"@ Nevada",
+                    "result": "L (35-37)",
+                    "location": "MacKay Stadium - Reno, Nevada",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"VS Arizona",
+                    "result": "L (14-35)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "9/22"
+                },
+                {
+                    "opponent":"@ Arizona State",
+                    "result": "L (24-52)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"VS Washington State",
+                    "result": "L (37-56)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"VS Cal",
+                    "result": "L (7-49)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"@ Colorado",
+                    "result": "W (41-34)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"VS USC",
+                    "result": "L (21-38)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"@ Stanford",
+                    "result": "L (17-48)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"@ #17 Washington",
+                    "result": "L (23-42)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"VS Oregon",
+                    "result": "L (15-55)",
+                    "location": "Reser Stadium, Corvallis, Oregon",
+                    "date": "11/23"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#6 Jake Luton, SR QB",
+                    "value":"1660"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#6 Jake Luton, SR QB",
+                    "value":"10"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#22 Jermar Jefferson, FR RB",
+                    "value":"1380"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#22 Jermar Jefferson, FR RB",
+                    "value":"12"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#17 Isaiah Hodgins, SO WR",
+                    "value":"876"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#17 Isaiah Hodgins, SO WR",
+                    "value":"5"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#33 Jalem Moore, JR S",
+                    "value":"101"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#49 Andrzej Hughes-Murray, JR LB",
+                    "value":"3.0"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#17 Isaiah Hodgins, SO WR",
+                    "value":"1"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "26.3"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "249.2"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "155.6"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "45.7"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "254.9"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "282.0"
+                }
+            ] 
         },
         "washington":{
             "lowerName": "washington",
             "name": "Washington",
             "mascot":"Huskies",
             "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Washington_Huskies_logo.svg/1280px-Washington_Huskies_logo.svg.png",
-            "record": "9-3 (7-2)",
-            "confWins": 7,
-            "teamColor": "purple",
-            "division" : "north"
+            "record": "10-3 (8-2)",
+            "confWins": 8,
+            "teamColor": "#363C74",
+            "division" : "north",
+            "coach" : "Chris Peterson", 
+            "header-text-color": "#E8D3A2",
+            "header-block-color": "#363C74",
+            "home" :"Husky Stadium - Seattle, Washington",
+            "schedule": [
+                {
+                    "opponent":"VS #9 Auburn",
+                    "result": "L (16-21)",
+                    "location": "Mercedes-Benz Stadium - Atlanta, Georgia",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"VS North Dakota",
+                    "result": "W (45-3)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"@ Utah",
+                    "result": "W (21-7)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"VS Arizona State",
+                    "result": "W (27-20)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "9/22"
+                },
+                {
+                    "opponent":"VS #20 BYU",
+                    "result": "W (35-7)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"@ UCLA",
+                    "result": "W (31-24)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"@ #17 Oregon",
+                    "result": "L (27-30 OT)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "10/13"
+                },
+                {
+                    "opponent":"VS Colorado",
+                    "result": "W (27-13)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"@ Cal",
+                    "result": "L (10-12)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"VS Stanford",
+                    "result": "W (27-23)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"VS Oregon State",
+                    "result": "W (42-23)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"@ #7 Washington State",
+                    "result": "W (28-15)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "11/23"
+                },
+                {
+                    "opponent":"VS #17 Utah",
+                    "result": "W (10-3)",
+                    "location": "Levi's Stadium - Santa Clara, California",
+                    "date": "11/30"
+                },
+                {
+                    "opponent":"VS #6 Ohio State",
+                    "result": "TBD",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "1/1"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#3 Jake Browning, SR QB",
+                    "value":"2692"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#3 Jake Browning, SR QB",
+                    "value":"16"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#9 Myles Gaskin, SR RB",
+                    "value":"1076"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#9 Myles Gaskin, SR RB",
+                    "value":"10"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#2 Aaron Fuller, JR WR",
+                    "value":"754"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#20 Ty Jones, SO WR",
+                    "value":"6"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#25 Ben Burr-Kirven, SR LB",
+                    "value":"155"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#99 Greg Gaines, SR DL",
+                    "value":"4.0"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#25 Ben Burr-Kirven, SR LB",
+                    "value":"2"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "26.6"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "232.5"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "179.9"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "15.5"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "185.4"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "116.4"
+                }
+            ] 
         },
         "washingtonstate":{
             "lowerName": "washingtonstate",
@@ -37,8 +508,165 @@
             "logoURL":"https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Washington_State_Cougars_logo.svg/1200px-Washington_State_Cougars_logo.svg.png",
             "record": "10-2 (7-2)",
             "confWins": 7,
-            "teamColor": "crimson" ,
-            "division" : "north"
+            "teamColor": "#981E32" ,
+            "division" : "north",
+            "coach" : "Mike Leach", 
+            "header-text-color": "white",
+            "header-block-color": "#981E32",
+            "home" :"Martin Stadium - Pullman, Washington",
+            "schedule": [
+                {
+                    "opponent":"@ Wyoming",
+                    "result": "W (41-19)",
+                    "location": "Jonah Field War Memorial Stadium - Laramie, Wyoming",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"VS San Jose State",
+                    "result": "W (31-0)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"VS Eastern Washington",
+                    "result": "W (59-24)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"@ USC",
+                    "result": "L (36-39)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "9/21"
+                },
+                {
+                    "opponent":"VS Utah",
+                    "result": "W (28-24)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"@ Oregon State",
+                    "result": "W (56-37)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"VS #12 Oregon",
+                    "result": "W (34-20)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"@ #24 Stanford",
+                    "result": "W (41-38)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"VS Cal",
+                    "result": "W (19-13)",
+                    "location": "Martin Stadium - Pullman, Washingtion",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"@ Colorado",
+                    "result": "W (31-7)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"VS Arizona",
+                    "result": "W (69-28)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"VS #16 Washington",
+                    "result": "L (15-28)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "11/23"
+                },
+                {
+                    "opponent":"VS #24 Iowa State",
+                    "result": "TBD",
+                    "location": "Alamodome - San Antonio, Texas",
+                    "date": "12/28"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#16 Gardner Minshew, SR QB",
+                    "value":"4477"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#16 Gardner Minshew, SR QB",
+                    "value":"36"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#32 James Williams, JR RB",
+                    "value":"552"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#32 James Williams, JR RB",
+                    "value":"12"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#12 Dezmon Patmon, JR WR",
+                    "value":"740"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#85 Easop Winston, JR WR",
+                    "value":"8"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#47 Peyton Pelluer, SR LB",
+                    "value":"86"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#20 Dominick Silvels, SO LB",
+                    "value":"4.5"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#25 Skyler Thomas, SO DB",
+                    "value":"2"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "38.2"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "379.8"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "83.2"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "23.1"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "208.8"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "137.2"
+                }
+            ] 
         },
         "stanford":{
             "lowerName": "stanford",
@@ -47,8 +675,165 @@
             "logoURL":"https://identity.stanford.edu/img/block-s-2color.png",
             "record": "8-4 (6-3)",
             "confWins": 6,
-            "teamColor": "crimson",
-            "division" : "north" 
+            "teamColor": "#8C1515",
+            "division" : "north",
+            "coach" : "David Shaw", 
+            "header-text-color": "white",
+            "header-block-color": "#8C1515",
+            "home" :"Stanford Stadium - Palo Alto, California",
+            "schedule": [
+                {
+                    "opponent":"VS San Diego State",
+                    "result": "W (31-10)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "8/31"
+                },
+                {
+                    "opponent":"VS #17 USC",
+                    "result": "W (17-3)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"VS UC Davis",
+                    "result": "W (30-10)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"@ #20 Oregon",
+                    "result": "W (38-31 OT)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "9/22"
+                },
+                {
+                    "opponent":"@ #8 Notre Dame",
+                    "result": "L (17-38)",
+                    "location": "Notre Dame Stadium - South Bend, Indiana",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"VS Utah",
+                    "result": "L (21-40)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"@ Arizona State",
+                    "result": "W (20-13)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "10/18"
+                },
+                {
+                    "opponent":"VS #14 Washington State",
+                    "result": "L (38-41)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"@ Washington",
+                    "result": "L (23-27)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"VS Oregon State",
+                    "result": "W (48-17)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"@ UCLA",
+                    "result": "W (49-42)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "11/24"
+                },
+                {
+                    "opponent":"@ Cal",
+                    "result": "W (23-13)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "12/1"
+                },
+                {
+                    "opponent":"VS Pitt",
+                    "result": "TBD",
+                    "location": "Sun Bowl - El Paso, Texas",
+                    "date": "12/31"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#3 K.J. Costello, JR QB",
+                    "value":"3198"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#3 K.J. Costello, JR QB",
+                    "value":"28"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#20 Bryce Love, SR RB",
+                    "value":"665"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#20 Bryce Love, SR RB",
+                    "value":"6"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#19 JJ Arcega-Whiteside, SR WR",
+                    "value":"860"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#19 JJ Arcega-Whiteside, SR WR",
+                    "value":"14"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#20 Bobby Okereke, SR LB",
+                    "value":"76"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#90 Gabe Reid, SO LB",
+                    "value":"4.0"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#11 Paulson Adebo, SO CB",
+                    "value":"2"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "29.6"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "287.1"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "108.3"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "23.8"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "274.7"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "140.9"
+                }
+            ]  
         },
         "cal":{
             "lowerName": "cal",
@@ -57,8 +842,165 @@
             "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/California_Golden_Bears_logo.svg/2000px-California_Golden_Bears_logo.svg.png",
             "record": "7-5 (4-5)",
             "confWins": 4,
-            "teamColor": "navy" ,
-            "division" : "north" 
+            "teamColor": "#041E42" ,
+            "division" : "north",
+            "coach" : "Justin Wilcox", 
+            "header-text-color": "#FFC72C",
+            "header-block-color": "#041E42",
+            "home" :"California Memorial Stadium - Berkeley, California",
+            "schedule": [
+                {
+                    "opponent":"VS North Carolina",
+                    "result": "W (24-17)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"@ BYU",
+                    "result": "W (21-18)",
+                    "location": "LaVell Edwards Stadium - Provo, Utah",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"VS Idaho State",
+                    "result": "W (45-23)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"VS #19 Oregon",
+                    "result": "L (24-42)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"@ Arizona",
+                    "result": "L (17-24)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"VS UCLA",
+                    "result": "L (7-37)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "10/13"
+                },
+                {
+                    "opponent":"@ Oregon State",
+                    "result": "W (49-7)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"VS #15 Washington",
+                    "result": "W (12-10)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"@ #10 Washington State",
+                    "result": "L (13-19)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"@ USC",
+                    "result": "W (15-14)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"VS Colorado",
+                    "result": "W (33-21)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "11/24"
+                },
+                {
+                    "opponent":"VS Stanford",
+                    "result": "L (13-23)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "12/1"
+                },
+                {
+                    "opponent":"VS TCU",
+                    "result": "TBD",
+                    "location": "Chase Field - Pheonix, Arizona",
+                    "date": "12/26"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#7 Chase Garbers, FR QB",
+                    "value":"1221"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#7 Chase Garbers, FR QB",
+                    "value":"13"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#28 Patrick Laird, SR RB",
+                    "value":"819"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#28 Patrick Laird, SR RB",
+                    "value":"5"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#17 Vic Wharton, SR WR",
+                    "value":"489"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#28 Patrick Laird, SR RB",
+                    "value":"4"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#89 Evan Weaver, JR LB",
+                    "value":"126"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#93 Luc Bequette, JR DE",
+                    "value":"5.0"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#27 Antione Davis, JR S",
+                    "value":"4"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "22.9"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "187.7"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "162.5"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "21.3"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "187.1"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "132.3"
+                }
+            ]   
         }
     },
     "south":{
@@ -69,8 +1011,159 @@
             "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Arizona_Wildcats_logo.svg/2000px-Arizona_Wildcats_logo.svg.png",
             "record": "5-7 (4-5)",
             "confWins": 4,
-            "teamColor": "navy" ,
-            "division" : "south"
+            "teamColor": "#002147" ,
+            "division" : "south",
+            "coach" : "Kevin Sumlin",
+            "header-text-color": "#AB0520",
+            "header-block-color": "#002147",
+            "home" :"Arizona Stadium - Tucson, Arizona",
+            "schedule": [
+                {
+                    "opponent":"VS BYU",
+                    "result": "L (23-28)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"@ Houston",
+                    "result": "L (18-45)",
+                    "location": "TDECU Stadium - Houston, Texas",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"VS Southern Utah",
+                    "result": "W (62-31)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"@ Oregon State",
+                    "result": "W (35-14)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "9/22"
+                },
+                {
+                    "opponent":"VS USC",
+                    "result": "L (20-24)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"VS Cal",
+                    "result": "W (24-17)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"@ Utah",
+                    "result": "L (10-42)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "10/12"
+                },
+                {
+                    "opponent":"@ UCLA",
+                    "result": "L (30-31)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"VS #19 Oregon",
+                    "result": "W (44-15)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"VS Colorado",
+                    "result": "W (42-34)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "11/2"
+                },
+                {
+                    "opponent":"@ #8 Washington State",
+                    "result": "L (28-69)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"VS Arizona State",
+                    "result": "L (40-41)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "11/24"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#17 Khalil Tate, JR QB",
+                    "value":"2530"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#17 Khalil Tate, JR QB",
+                    "value":"26"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#21 J.J. Taylor, SO RB",
+                    "value":"1432"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#21 J.J. Taylor, SO RB",
+                    "value":"6"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#19 Shawn Poindexter, SR WR",
+                    "value":"759"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#19 Shawn Poindexter, SR WR",
+                    "value":"11"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#7 Colin Schooler, SO LB",
+                    "value":"119"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#7 Colin Schooler, SO LB",
+                    "value":"3.5"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#19 Scottie Young Jr., SO S",
+                    "value":"3"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "31.3"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "255.3"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "202.4"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "32.6"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "269.5"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "162.5"
+                }
+            ]   
         },
         "arizonastate":{
             "lowerName": "arizonastate",
@@ -79,8 +1172,165 @@
             "logoURL":"https://i.pinimg.com/originals/eb/f8/70/ebf870de79640549de90681c087d230d.png",
             "record": "7-5 (5-4)",
             "confWins": 5,
-            "teamColor": "red"  ,
-            "division" : "south"
+            "coach" : "Herman Edwards", 
+            "teamColor": "#8E0C3A"  ,
+            "division" : "south",
+            "header-text-color": "#FFC72C",
+            "header-block-color": "#8E0C3A",
+            "home" :"Sun Devil Stadium - Tempe, Arizona",
+            "schedule": [
+                {
+                    "opponent":"VS UTSA",
+                    "result": "W (49-9)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"VS #15 Michigan State",
+                    "result": "W (16-13)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"@ San Diego State",
+                    "result": "L (21-28)",
+                    "location": "SDCCU Stadium - San Diego, California",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"@ #10 Washington",
+                    "result": "L (20-27)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "9/22"
+                },
+                {
+                    "opponent":"VS Oregon State",
+                    "result": "W (52-24)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"@ #21 Colorado",
+                    "result": "L (21-28)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"VS Stanford",
+                    "result": "L (13-20)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "10/18"
+                },
+                {
+                    "opponent":"@ USC",
+                    "result": "W (38-35)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"VS #16 Utah",
+                    "result": "W (38-20)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"VS UCLA",
+                    "result": "W (31-28)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"@ Oregon",
+                    "result": "L (29-31)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"@ Arizona",
+                    "result": "W (41-40)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "11/24"
+                },
+                {
+                    "opponent":"VS #21 Fresno State",
+                    "result": "TBD",
+                    "location": "Sam Boyd Stadium - Las Vegas, Nevada",
+                    "date": "12/15"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#5 Manny Wilkins, SR QB",
+                    "value":"2896"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#5 Manny Wilkins, SR QB",
+                    "value":"19"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#3 Eno Benjamin, SO RB",
+                    "value":"1524"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#3 Eno Benjamin, SO RB",
+                    "value":"15"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#1 N'Keal Harry, JR WR",
+                    "value":"1088"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#1 N'Keal Harry, JR WR",
+                    "value":"9"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#8 Merlin Robertson, FR LB",
+                    "value":"77"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#8 Merlin Robertson, FR LB",
+                    "value":"5.0"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#16 Aashari Crosswell, FR S",
+                    "value":"3"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "30.8"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "241.3"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "185.9"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "25.1"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "238.6"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "164.2"
+                }
+            ]   
         },
         "usc":{
             "lowerName": "usc",
@@ -89,8 +1339,159 @@
             "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/USC_Trojans_logo.svg/1200px-USC_Trojans_logo.svg.png",
             "record": "5-7 (4-5)",
             "confWins": 4,
-            "teamColor": "red" ,
-            "division" : "south" 
+            "coach" : "Clay Helton", 
+            "teamColor": "#9D2235" ,
+            "division" : "south",
+            "header-text-color": "#FFC72C",
+            "header-block-color": "#9D2235",
+            "home" :"Los Angeles Memorial Coliseum - Los Angeles, California",
+            "schedule": [
+                {
+                    "opponent":"VS UNLV",
+                    "result": "W (43-21)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"@ #10 Stanford",
+                    "result": "L (3-17)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"@ Texas",
+                    "result": "L (14-37)",
+                    "location": "Darrell K Royal-Texas Memorial Stadium - Austin, Texas",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"VS Washington State",
+                    "result": "W (39-36)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "9/21"
+                },
+                {
+                    "opponent":"@ Arizona",
+                    "result": "W (24-20)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"VS #19 Colorado",
+                    "result": "W (31-20)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "10/13"
+                },
+                {
+                    "opponent":"@ Utah",
+                    "result": "L (28-41)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"VS Arizona State",
+                    "result": "L (35-38)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"@ Oregon State",
+                    "result": "W (38-21)",
+                    "location": "Reser Stadium - Corvallis, Oregon",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"VS Cal",
+                    "result": "L (14-15)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"@ UCLA",
+                    "result": "L (27-34)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"VS #3 Notre Dame",
+                    "result": "L (17-24)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "11/24"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#18 JT Daniels, FR QB",
+                    "value":"2661"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#18 JT Daniels, FR QB",
+                    "value":"14"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#28 Aca'Cedric Ware, SR RB",
+                    "value":"825"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#29 Vavae Malepeai, SO RB",
+                    "value":"8"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#6 Michael Pittman Jr., JR WR",
+                    "value":"747"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#6 Michael Pittman Jr., JR WR",
+                    "value":"6"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#35 Cameron Smith, SR LB",
+                    "value":"81"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#45 Porter Gustin, SR LB",
+                    "value":"7.5"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#27 Ajene Harris, SR CB",
+                    "value":"1"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "26.1"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "248.2"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "134.4"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "27.0"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "223.3"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "164.8"
+                }
+            ]  
         },
         "ucla":{
             "lowerName": "ucla",
@@ -99,18 +1500,326 @@
             "logoURL":"https://upload.wikimedia.org/wikipedia/en/6/6d/UCLA_Bruins_Logo.png",
             "record": "3-9 (3-6)",
             "confWins": 3,
-            "teamColor": "skyblue" ,
-            "division" : "south" 
+            "coach" : "Chip Kelly", 
+            "teamColor": "#2D68C4" ,
+            "division" : "south",
+            "header-text-color": "#F2A900",
+            "header-block-color": "#2D68C4",
+            "home" :"Rose Bowl - Pasadena, California",
+            "schedule": [
+                {
+                    "opponent":"VS Cincinnati",
+                    "result": "L (17-26)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "9/1"
+                },
+                {
+                    "opponent":"@ #6 Oklahoma",
+                    "result": "L (21-49)",
+                    "location": "Gaylord Family - Oklahoma Memorial Stadium - Norman, Oklahoma",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"VS Fresno State",
+                    "result": "L (14-38)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"@ Colorado",
+                    "result": "L (16-38)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "9/28"
+                },
+                {
+                    "opponent":"VS #10 Washington",
+                    "result": "L (24-31)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"@ Cal",
+                    "result": "W (37-7)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "10/13"
+                },
+                {
+                    "opponent":"VS Arizona",
+                    "result": "W (31-31)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"VS Utah",
+                    "result": "L (10-41)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "10/26"
+                },
+                {
+                    "opponent":"@ Oregon",
+                    "result": "L (21-42)",
+                    "location": "Autzen Stadium - Eugene, Oregon",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"@ Arizona State",
+                    "result": "L (28-31)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"VS USC",
+                    "result": "W (34-27)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"VS Stanford",
+                    "result": "L (42-49)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "11/24"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#3 Wilton Speight, SR QB",
+                    "value":"1527"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#7 Dorian Thompson-Robinson, FR QB",
+                    "value":"7"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#27 Joshua Kelley, SR RB",
+                    "value":"1243"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#27 Joshua Kelley, SR RB",
+                    "value":"12"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#81 Caleb Wilson, JR TE",
+                    "value":"965"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#81 Caleb Wilson, JR TE",
+                    "value":"4"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#6 Adarius Pickett, SR DB",
+                    "value":"123"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#11 Keisean Lucier-South, JR LB",
+                    "value":"3.0"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#1 Darnay Holmes, SO CB",
+                    "value":"3"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "24.6"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "237.8"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "155.3"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "34.1"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "245.5"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "200.1"
+                }
+            ]   
         },
         "utah":{
             "lowerName": "utah",
             "name": "Utah",
             "mascot":"Utes",
             "logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Utah_Utes_logo.svg/2000px-Utah_Utes_logo.svg.png",
-            "record": "9-3 (6-3)",
+            "record": "9-4 (6-4)",
             "confWins" : 6,
-            "teamColor": "red" ,
-            "division" : "south"
+            "coach" : "Kyle Whittingham", 
+            "teamColor": "#CC0000" ,
+            "division" : "south",
+            "header-text-color": "white",
+            "header-block-color": "#CC0000",
+            "home" :"Rice-Eccles Stadium - Salt Lake City, Utah",
+            "schedule": [
+                {
+                    "opponent":"VS Weber State",
+                    "result": "W (41-10)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "8/30"
+                },
+                {
+                    "opponent":"@ Northern Illinois",
+                    "result": "W (17-9)",
+                    "location": "Huskie Stadium - DeKalb, Illinois",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"VS #10 Washington",
+                    "result": "L (7-21)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"@ Washington State",
+                    "result": "L (24-28)",
+                    "location": "Martin Stadium - Pullman, Washington",
+                    "date": "9/29"
+                },
+                {
+                    "opponent":"@ #14 Stanford",
+                    "result": "W (40-21)",
+                    "location": "Stanford Stadium - Palo Alto, California",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"VS Arizona",
+                    "result": "W (42-10)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "10/12"
+                },
+                {
+                    "opponent":"VS USC",
+                    "result": "W (41-28)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"@ UCLA",
+                    "result": "W (41-10)",
+                    "location": "Rose Bowl - Pasadena, California",
+                    "date": "10/26"
+                },
+                {
+                    "opponent":"@ Arizona State",
+                    "result": "L (20-38)",
+                    "location": "Sun Devil Stadium - Tempe, Arizona",
+                    "date": "11/3"
+                },
+                {
+                    "opponent":"VS Oregon",
+                    "result": "W (32-25)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"@ Colorado",
+                    "result": "W (30-7)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"VS BYU",
+                    "result": "W (35-27)",
+                    "location": "Rice-Eccles Stadium - Salt Lake City, Utah",
+                    "date": "11/24"
+                },
+                {
+                    "opponent":"VS #22 Northwestern",
+                    "result": "TBD",
+                    "location": "SDCCU Stadium - San Diego, California",
+                    "date": "12/31"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#1 Tyler Huntley, JR QB",
+                    "value":"1762"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#1 Tyler Huntley, JR QB",
+                    "value":"12"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#2 Zach Moss, JR RB",
+                    "value":"1092"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#2 Zach Moss, JR RB",
+                    "value":"11"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#18 Britain Covey, SO WR",
+                    "value":"605"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#45 Samson Nacua, SO WR",
+                    "value":"5"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#30 Cody Barton, SR LB",
+                    "value":"92"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#6 Bradlee Anae, JR DE",
+                    "value":"6.5"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#1 Jaylon Johnson, SO DB",
+                    "value":"4"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "28.7"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "207.2"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "189.5"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "18.5"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "213.3"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "102.9"
+                }
+            ] 
         },
         "colorado":{
             "lowerName": "colorado",
@@ -119,8 +1828,159 @@
             "logoURL":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Colorado_Buffaloes_logo.svg/1200px-Colorado_Buffaloes_logo.svg.png",
             "record": "5-7 (2-7)",
             "confWins": 2,
+            "coach" : "Mel Tucker", 
             "teamColor": "black"  ,
-            "division" : "south"
+            "division" : "south",
+            "header-text-color": "black",
+            "header-block-color": "#CFB87C",
+            "home" :"Folsom Field - Boulder, Colorado",
+            "schedule": [
+                {
+                    "opponent":"VS Colorado State",
+                    "result": "W (45-13)",
+                    "location": "Broncos Stadium at Mile High - Denver, Colorado",
+                    "date": "8/31"
+                },
+                {
+                    "opponent":"@ Nebraska",
+                    "result": "W (33-28)",
+                    "location": "Memorial Stadium - Lincoln, Nebraska",
+                    "date": "9/8"
+                },
+                {
+                    "opponent":"VS New Hampshire",
+                    "result": "W (45-14)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "9/15"
+                },
+                {
+                    "opponent":"VS UCLA",
+                    "result": "W (38-16)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "9/28"
+                },
+                {
+                    "opponent":"VS Arizona State",
+                    "result": "W (28-21)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "10/6"
+                },
+                {
+                    "opponent":"@ USC",
+                    "result": "L (20-31)",
+                    "location": "Los Angeles Memorial Coliseum - Los Angeles, California",
+                    "date": "10/13"
+                },
+                {
+                    "opponent":"@ #15 Washington",
+                    "result": "L (13-27)",
+                    "location": "Husky Stadium - Seattle, Washington",
+                    "date": "10/20"
+                },
+                {
+                    "opponent":"VS Oregon State",
+                    "result": "L (34-41)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "10/27"
+                },
+                {
+                    "opponent":"@ Arizona",
+                    "result": "L (34-42)",
+                    "location": "Arizona Stadium - Tucson, Arizona",
+                    "date": "11/2"
+                },
+                {
+                    "opponent":"VS #10 Washington State",
+                    "result": "L (7-31)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "11/10"
+                },
+                {
+                    "opponent":"VS #21 Utah",
+                    "result": "L (7-31)",
+                    "location": "Folsom Field - Boulder, Colorado",
+                    "date": "11/17"
+                },
+                {
+                    "opponent":"@ Cal",
+                    "result": "L (21-33)",
+                    "location": "California Memorial Stadium - Berkeley, California",
+                    "date": "11/24"
+                }
+            ],
+            "leaders":[
+                {
+                    "stat": "Passing Yards",
+                    "player": "#12 Steven Montez, JR QB",
+                    "value":"2849"
+                },
+                {
+                    "stat": "Passing TDs",
+                    "player": "#12 Steven Montez, JR QB",
+                    "value":"19"
+                },
+                {
+                    "stat": "Rushing Yards",
+                    "player": "#34 Travon McMillian, SR RB",
+                    "value":"1009"
+                },
+                {
+                    "stat": "Rushing TDs",
+                    "player": "#34 Travon McMillian, SR RB",
+                    "value":"7"
+                },
+                {
+                    "stat": "Recieving Yards",
+                    "player": "#2 Laviska Shenault Jr., SO WR",
+                    "value":"1011"
+                },
+                {
+                    "stat": "Recieving TDs",
+                    "player": "#2 Laviska Shenault Jr., SO WR",
+                    "value":"6"
+                },
+                {
+                    "stat": "Total Tackles",
+                    "player": "#53 Nate Landman, SO LB",
+                    "value":"104"
+                },
+                {
+                    "stat": "Total Sacks",
+                    "player": "#34 Mustafa Johnson, SO DL",
+                    "value":"7.5"
+                },
+                {
+                    "stat": "Interceptions",
+                    "player": "#53 Nate Landman, SO LB",
+                    "value":"2"
+                }
+            ],
+            "stats":[
+                {
+                    "stat" : "PPG",
+                    "val" : "27.1"
+                },
+                {
+                    "stat" : "Passing YPG",
+                    "val" : "249.6"
+                },
+                {
+                    "stat" : "Rushing YPG",
+                    "val" : "143.0"
+                },
+                {
+                    "stat" : "PPG Allowed",
+                    "val" : "27.3"
+                },
+                {
+                    "stat" : "Passing YPG Allowed",
+                    "val" : "233.8"
+                },
+                {
+                    "stat" : "Rushing YPG Allowed",
+                    "val" : "146.5"
+                }
+            ] 
         }   
     }
 }
