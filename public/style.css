@@ -257,7 +257,8 @@ body {
   }
 
   .page-logo-container{
-    margin: auto
+    margin: auto;
+    padding-top: 20px;
   }
 
 
@@ -342,7 +343,7 @@ body {
   .team-stats-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
 
