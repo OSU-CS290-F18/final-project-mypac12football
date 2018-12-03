@@ -30,7 +30,15 @@ app.get('/teams', function (req, res, next) {
     res.status(200).render('teams', allTeams["divisions"]);
 });
 
-app.get('/teams/:division/:team');
+app.get('/teams/:division/:team', function (req, res, next) {
+    if(req.params.division == "north" || req.params.division == "south"){
+        if(allTeams["divisions"][req.params.division][req.params.team]){
+            res.status(200).render('initialNoTeams');
+        }
+        else next();
+    }
+    else next();
+});
 
 app.post('/updateMyTeams', function (req, res, next) {
     if(req.body)
