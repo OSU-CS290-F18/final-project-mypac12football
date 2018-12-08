@@ -163,9 +163,10 @@ app.post('/updateMyTeams', function (req, res, next) {
         if(myTeams.length > 0){
         myTeamsCollection.insertMany(myTeams, function(err, obj){
             if(err) res.status(500).send("Error connecting to DB.");
+            else res.status(200).send("Success");
         });}
-    });
-    res.status(200).send("Success");});});
+        else res.status(200).send("Success");
+    });});});
 });
 
 app.get('*', function (req, res, next) {
